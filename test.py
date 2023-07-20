@@ -1,8 +1,8 @@
 class person:
-  def __init__(self, name,prenom):
+  def __init__(self, name,prenom,dateb):
      self.name=name
      self.prenom=prenom
-  
+     dateb=self.date(15,"janvier",2020) 
   class date:
     def __init_(self,jours,mois,annee):
        self.jours=jours

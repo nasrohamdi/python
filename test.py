@@ -8,3 +8,4 @@ class person:
        self.jours=jours
        self.mois=mois
        self.annee=anee
+p1=person("ali",20,"salah")
